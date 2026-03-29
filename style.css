@@ -114,7 +114,7 @@ h2 {
 }
 
 .btn-secondary:hover {
-  background-color: #e0f2f1; /* Light teal tint */
+  background-color: #e0f2f1; 
   border-color: var(--teal);
   color: var(--teal);
 }
