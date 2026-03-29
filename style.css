@@ -18,7 +18,6 @@ body {
 /* section  */
 .wrapper {
     max-width: 600px;
-    /* Limits width but stays on the left */
     display: flex;
     flex-direction: column;
     gap: 20px;
