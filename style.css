@@ -1,0 +1,169 @@
+:root {
+    --bg: #f5f2eb;
+    --card-white: #ffffff;
+    --teal: #0e746a;
+    --orange: #f3a953;
+    --border: #e0ddd5;
+    --text: #222;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: system-ui, sans-serif;
+    padding: 40px;
+    line-height: 1.6;
+}
+
+/* section  */
+.wrapper {
+    max-width: 600px;
+    /* Limits width but stays on the left */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card {
+    background: var(--card-white);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 2rem;
+}
+
+h1,
+h2,
+label,
+strong,
+b {
+    font-weight: 700;
+    display: block;
+}
+
+h1 {
+    font-family: serif;
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+h2 {
+    font-family: serif;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+
+/* header card */
+.overline {
+    color: var(--teal);
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+
+.muted {
+    color: #666;
+}
+
+/* Text Styles */
+.callout {
+    border-left: 4px solid var(--orange);
+    background: #fffaf2;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    color: #8a5a1e;
+    font-style: italic;
+}
+
+.badge {
+    padding: 2px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+}
+
+.badge-teal {
+    background: #e0f2f1;
+    color: var(--teal);
+}
+
+.badge-gray {
+    background: #f0f0f0;
+    color: #666;
+}
+
+
+/* Buttons  */
+.btn {
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background: var(--teal);
+    color: white;
+    border: none;
+}
+
+.btn-secondary {
+    background: white;
+    border: 1px solid var(--teal);
+    color: var(--teal);
+    margin-left: 8px;
+}
+
+.btn-secondary:hover {
+  background-color: #e0f2f1; /* Light teal tint */
+  border-color: var(--teal);
+  color: var(--teal);
+}
+
+.field {
+    margin-bottom: 1rem;
+}
+
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+/* Table  */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+  border: 1px solid var(--border);
+}
+
+
+th {
+    background: #e0f7f5;
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid var(--border);
+
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+.footer-text {
+    background: none;
+    border: none;
+    color: #999;
+    font-size: 0.9rem;
+    padding-left: 0;
+}
+  
